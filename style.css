@@ -1,0 +1,131 @@
+body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        .container {
+
+            max-width: 1131px; 
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            margin-bottom: 40px;
+        }
+
+
+        .logo img {
+            max-height: 600px; 
+            width: auto;
+            display: block;
+        }
+
+
+        .nav {
+            display: flex;
+            gap: 55px;
+        }
+
+        .nav a {
+           font-style: bold;
+            text-decoration: none;
+            color: black ;
+            font-size: 20px;
+            text-transform: lowercase;
+            cursor: pointer;
+        }
+
+
+        .content {
+            max-width: 850px; 
+            margin: 0 auto;
+        }
+
+        .section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 60px;
+            gap: 30px;
+        }
+
+        .section-two {
+            flex-direction: row-reverse; 
+        }
+
+        .text-content {
+            flex: 2;
+        }
+
+        .image-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .image-container img {
+            max-width: 100%; 
+            height: auto; 
+            display: block;
+            border-radius: 8px; 
+        }
+
+
+
+
+        h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            line-height: 1.9;
+            color: dimgray;
+
+        }
+
+
+        .footer {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 900;
+            color: #444;
+            margin-top: 50px;
+        }
+
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                gap: 20px;
+            }
+            .nav {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .section {
+                flex-direction: column !important;
+            }
+            .text-content {
+                text-align: center;
+            }
+            .image-container {
+                margin-bottom: 20px;
+            }
+        
+    
