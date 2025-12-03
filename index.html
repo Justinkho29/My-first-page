@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Thenics Athlete</title>
+
+
+
+
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="https://i.imgur.com/fhhLvPj.jpeg" alt="Thenics Athlete Logo">
+            </div>
+            <nav class="nav">
+
+               <a id="nav-contact">Contact us</a>
+                <a id="nav-about">About us</a>
+                <a id="nav-email">Email</a>
+
+               <a id="nav-home">home</a>
+
+            </nav>
+        
+        </header>
+
+        <main class="content">
+
+            <section class="section section-one">
+                <div class="text-content">
+                    <h2>• what is calisthenic?</h2>
+                    <p>Calisthenics is a form of strength training that uses your own body weight as resistance, with little to no equipment. It focuses on multi-joint, compound movements like push-ups, pull-ups, squats, and lunges to build strength, endurance, flexibility, and coordination.</p>
+                </div>
+                <div class="image-container">
+                    <img src="https://i.imgur.com/kDboDky.jpeg" alt="Calisthenics exercise"> 
+                </div>
+            </section>
+
+            <section class="section section-two">
+                <div class="text-content">
+                    <h2>• Why do we need to choose calisthenics?</h2>
+                    <p>Calisthenics is a powerful way to take control of your fitness journey, using nothing but your own body weight to build a strong and resilient physique. It's an accessible path for anyone looking to increase their strength, flexibility, and endurance, with no gym membership or expensive equipment required. Take the first step and you'll quickly discover a newfound sense of self-discipline and physical capability.</p>
+                </div>
+                <div class="image-container">
+                    <img src="https://i.imgur.com/mJJnLTZ.jpeg" alt="Calisthenics exercise flipped">
+                </div>
+            </section>
+
+            <section class="section section-three">
+                <div class="text-content">
+                    <h2>• The Rewards of Dedication</h2>
+                    <p>The real motivation comes from seeing the incredible changes your body and mind undergo. With consistency, you'll achieve impressive feats of strength you never thought possible, unlocking a level of physical freedom that is truly empowering.</p>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+          <h1>  READY</h1>
+        </footer>
+
+    </div>
+
+    <script>
+        function showSurvey(question) {
+            const response = prompt(question);
+
+            if (response) {
+                alert('Salamat sa iyong sagot: ' + response);
+            } else {
+                alert('Nag-cancel ka ng survey.');
+            }
+        }
+
+        document.getElementById('nav-contact').addEventListener('click', function() {
+            showSurvey('SURVEY: Ano ang iyong katanungan para sa "Contact Us"?');
+        });
+
+        document.getElementById('nav-about').addEventListener('click', function() {
+            showSurvey('SURVEY: Ano ang pinaka-gusto mong malaman tungkol sa amin?');
+        });
+
+        document.getElementById('nav-email').addEventListener('click', function() {
+            showSurvey('SURVEY: Paki-lagay ang iyong email para sa aming newsletter.');
+        });
+
+        document.getElementById('nav-home').addEventListener('click', function() {
+            alert('Nasa Home page ka na.');
+        });
+    </script>
+
+</body>
+</html>
