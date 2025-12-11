@@ -21,13 +21,4 @@
             showSurvey('SURVEY: Paki-lagay ang iyong email para sa aming newsletter.');
         });
 
-        document.getElementById('nav-home').addEventListener('click', function() {
-            alert('Home button clicked.');
-        });
-
         
-        document.getElementById('btn-next').addEventListener('click', function() {
-           alert("Proceeding to the next module...");
-        });
-    
-
